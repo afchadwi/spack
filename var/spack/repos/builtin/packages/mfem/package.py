@@ -48,6 +48,8 @@ class Mfem(Package):
     # Tagged development version used by the laghos package:
     version('3.4.1-laghos-v2.0', tag='laghos-v2.0')
 
+    version('4.0.0-xsdk', commit='c55c80d17b82d80de04b849dd526e17044f8c99a') # tag v4.0.0xsdk
+
     version('3.4.0',
             sha256='4e73e4fe0482636de3c5dc983cd395839a83cb16f6f509bd88b053e8b3858e05',
             url='https://bit.ly/mfem-3-4', extension='.tar.gz',
